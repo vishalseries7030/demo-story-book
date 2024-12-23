@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Book Navigation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="page-content">
+      <!-- Initial Page Content -->
+      <div class="content">
+        <div class="left-section">
+          <h2>Book Title</h2>
+          <p>Author: John Doe</p>
+          <p>
+            Description: This book provides a deep insight into the world of
+            abstract concepts and creative ideas. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Corporis voluptate porro consequuntur
+            velit cupiditate? Deleniti distinctio voluptate ullam saepe numquam
+            corporis esse vel atque quaerat aliquid. Doloribus, at recusandae?
+            Quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quasi, praesentium? Est nulla, in natus sed molestiae unde hic
+            deleniti harum repellendus distinctio ullam earum. Voluptas
+            necessitatibus, odit provident eius quaerat ducimus quo, delectus,
+            dolores reprehenderit possimus quam? Eveniet exercitationem illo
+            esse velit nihil praesentium libero, similique eos at inventore. Est
+            tempora numquam error quibusdam sint dicta, minima quia sequi eum,
+            quaerat incidunt ipsum esse quasi, placeat omnis. Molestias
+            voluptatem excepturi quis, sint nemo unde nostrum nesciunt in,
+            labore explicabo pariatur, id maxime minus ipsa. Vitae magni illum
+            placeat beatae officia voluptas repellat illo quia repudiandae
+            delectus? Eaque blanditiis praesentium quis consequatur fugiat enim
+            minus repellat sequi provident asperiores voluptates, ipsa
+            voluptatibus consectetur. Quod provident maiores quis facilis, porro
+            tempora expedita.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Your Website. All Rights Reserved.</p>
+      <div class="footer-icons">
+        <i class="bi bi-arrow-left" onclick="loadPreviousPage()"></i>
+        <i class="bi bi-arrow-right" onclick="loadNextPage()"></i>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

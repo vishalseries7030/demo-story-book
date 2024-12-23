@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://static.vecteezy.com/system/resources/previews/027/544/940/non_2x/background-with-blue-abstract-multilayered-wavy-pattern-paper-art-style-template-design-for-posters-banners-flyers-booklets-vector.jpg")
+      no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .content {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-top: 10%;
+  }
+
+  .content1 {
+    margin-top: 5%;
+  }
+
+  .left-section,
+  .right-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: justify;
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+  }
+
+  .footer-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer-icons i {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .footer-icons i:hover {
+    color: #007bff;
+  }
